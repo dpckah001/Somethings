@@ -23,7 +23,7 @@ A versatile PowerShell script that supports both reverse and bind shell connecti
     Invoke-PowerShellTcp -Bind -Port 4444
     ```
 
-For full details and usage examples, refer to the script’s [documentation](./scripts/Invoke-PowerShellTcp.md).
+For full details and usage examples, refer to the script’s [documentation](./shells/PowerShell_Reverse_Shell_Script/README.md).
 
 ### 2. Automation Tools (Coming Soon)
 
